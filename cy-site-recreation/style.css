@@ -1,0 +1,53 @@
+@font-face { 
+    font-family: GT America;  
+    src: url('./Grilli-Type-Trial-Fonts-2022-10/Web/GT-America/GT-America-Compressed-Bold-Trial.woff2') 
+    format('woff2'), url('./Grilli-Type-Trial-Fonts-2022-10/Web/GT-America/GT-America-Compressed-Bold-Trial.woff2') 
+    format('woff'), url('./Grilli-Type-Trial-Fonts-2022-10/Desktop/GT-America/GT-America-Compressed-Bold-Trial.otf') 
+    format('truetype'); 
+    }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin: 0px auto 0px auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 70px;
+    height: 70px;
+    padding: 12px 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;  
+    color: #22252C;
+}
+
+li {
+    margin-left: 20px;
+    padding: 20px 15px;
+    font-size: 15px;
+    letter-spacing: 0.09375rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "GT America", sans-serif;
+    line-height: 0.8em;
+}
